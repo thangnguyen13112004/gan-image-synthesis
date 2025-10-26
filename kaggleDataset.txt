@@ -1,0 +1,6 @@
+dataset Inpainting:
+https://www.kaggle.com/datasets/duyminhle/inpainting-image-classification-dataset
+dataset Edge2shoes:
+https://www.kaggle.com/datasets/balraj98/edges2shoes-dataset
+Video demo:
+https://drive.google.com/file/d/1ZsyR1EZrzUpEUIWF1KS5RlMfnzNbgF4h/view?usp=sharing
