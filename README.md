@@ -6,6 +6,8 @@ This repository demonstrates **two deep learning models** built on the **Pix2Pix
 
 Built with **TensorFlow** and deployed via **Streamlit** for an interactive web interface.
 
+[Model download]: https://drive.google.com/drive/folders/1odc0mqlUeQlvGa4kjyctm0I8vdR4gzeH?usp=sharing
+
 ---
 
 ## 🚀 Features
@@ -35,9 +37,6 @@ Both models utilize the **U-Net generator** and **PatchGAN discriminator** for i
 
 ```
 📦 AI-Image2Image-Demo
-├── Models/
-│   ├── Edge2Shoes_epoch_341.h5
-│   └── Inpainting_epoch_741.h5
 ├── TH1.py                # Main Streamlit app
 ├── requirements.txt      # Dependencies
 ├── README.md             # Project documentation
