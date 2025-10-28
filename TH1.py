@@ -24,7 +24,7 @@ st.markdown("### Chọn model bạn muốn sử dụng:")
 @st.cache_resource
 def load_inpainting_model():
     try:
-        model = load_model('Inpainting_epoch_501.h5')
+        model = load_model('Models/Inpainting_epoch_741.h5')
         return model
     except Exception as e:
         st.error(f"Không thể load Inpainting model: {e}")
@@ -33,7 +33,7 @@ def load_inpainting_model():
 @st.cache_resource
 def load_edge2shoes_model():
     try:
-        model = load_model('g_model_epoch_311.h5')
+        model = load_model('Models/Edge2shoes_epoch_341.h5')
         return model
     except Exception as e:
         st.error(f"Không thể load Edge2Shoes model: {e}")
